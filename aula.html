@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>O que são variáveis</h1>
+    
+    <h2>Formas de declarar variável no JS</h2>
+    
+        <p>
+            <strong>var:</strong> declara uma variável podendo atribuir um valor.<br/>
+            <strong>let:</strong> declara uma variável com escopo de bloco.<br/>
+            <strong>const:</strong> declara uma variável apenas de leitura. Não será  possível alterar.
+        </p>
+
+    <h2>Tipos de Dados</h2>
+        <p>
+            O JavaScript possui os seguintes tipos de dados:
+            <ul>
+                <li>Number</li>
+                <li>String</li>
+                <li>Boolean</li>
+                <li>Array</li>
+                <li>Null & Undefined</li>
+                <li>Symbol</li>
+                <li>Object</li>
+                <li>Function</li>
+            </ul>
+
+            Saber este tipo de informação é importante para evitar erros.
+        </p>
+
+    <h3>Numbers</h3>
+        
+        <p>São todos os números reais que aprendemos com a matemática.</p>
+            
+        <p>Operadores: você pode usar + - * e / para executar as operações básicas com números.</p>
+
+        <script>
+        let numero = 5
+        let numero2 = 7
+        let resultado = numero + numero2
+        console.log(resultado)
+
+        let numero3 = 5
+        let resultado2 = numero3 * 0.5
+        console.log(resultado2)
+        </script>
+
+    <h3>Strings</h3>
+
+        <p>Valores de texto chamados de "cadeia de caracteres"</p>
+        
+        <script>
+            let mensagem = "Olá Mundo!"
+            console.log(mensagem)
+        </script>
+
+        <p>Template de String:</p>
+
+        <script>
+            let ola = "Olá"
+            let mundo = "Mundo!"
+            let olaMundo = `${ola} ${mundo}`
+            console.log(olaMundo)
+        </script>
+
+    <h3>Booleanos</h3>
+        
+        <p>São tipos de dados que possuem apenas dois valores: verdadeiro (true) e falso (false).</p>
+
+        <script>
+            // true
+            let comparacao = 1 == 1
+            
+            // false
+            let comparacao2 = 1 > 5
+            
+            // true
+            let comparacaoString = "banana" == "banana"
+
+        </script>
+
+
+
+
+
+</body>
+</html>
